@@ -1,10 +1,21 @@
 var React = require('react');
+var {Link} = require('react-router');
 
 var About = (props) => {
   return (
     <div>
-      <h3>About Component</h3>
-      <p>This is a newly added paragraph</p>
+
+      <h2 className="text-center">Webapp information</h2>
+      <p>This is the about page. Awesome</p>
+        <ol>
+          <li>
+            <Link to='/?location=Leicester'>Leicester, UK</Link>
+          </li>
+          <li>
+            <Link to='/?location=rio'>Rio, Brazil</Link>
+          </li>
+        </ol>
+
     </div>
 
   )
