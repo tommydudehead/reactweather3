@@ -5,7 +5,7 @@ var About = (props) => {
   return (
     <div>
 
-      <h2 className="text-center">Webapp information</h2>
+      <h2 className="text-center page-title">Webapp information</h2>
       <p>This is the about page. Awesome</p>
         <ol>
           <li>
